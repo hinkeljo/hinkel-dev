@@ -94,4 +94,30 @@ export const projects: Project[] = [
       live: "https://lingoflash.app/",
     },
   },
+  {
+    id: "fehtimeline",
+    name: "FEH Timeline",
+    description:
+      "An interactive and filterable timeline for events in the Fire Emblem Heroes game. Unfortunately not updated with content anymore.",
+    images: [
+      {
+        src: "/images/feh_timeline_1.png",
+        alt: "A screenshot of the FEH timeline",
+      },
+    ],
+    tags: [
+      {
+        name: "Svelte",
+        icon: "ri:svelte-line",
+      },
+      {
+        name: "Pocketbase",
+        icon: "simple-icons:pocketbase",
+      },
+    ],
+    links: {
+      github: "https://github.com/hinkeljo/feh-timeline",
+      live: "https://hinkeljo.github.io/feh-timeline/",
+    },
+  },
 ];
