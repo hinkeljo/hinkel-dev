@@ -6,10 +6,23 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      keyframes: {
+        "cursor-breath": {
+          "0%": { opacity: "50" },
+          "50%": { opacity: "15" },
+          "100%": { opacity: "50" },
+        },
+      },
+      animation: {
+        "cursor-breath": "cursor-breath 20s infinite ease-in-out",
+      },
+    },
+  },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["lofi"],
+    themes: ["forest"],
   },
 };
 export default config;

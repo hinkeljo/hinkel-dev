@@ -15,7 +15,7 @@ export default function NavLink({ label, target }: Props) {
   return (
     <Link
       href={target}
-      className={clsx("btn btn-primary btn-sm md:btn-md", {
+      className={clsx("btn btn-primary btn-sm md:btn-md join-item min-w-24", {
         "btn-outline": pathname != target,
       })}
     >

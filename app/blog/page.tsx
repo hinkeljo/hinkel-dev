@@ -6,5 +6,10 @@ export const metadata: Metadata = {
 };
 
 export default function Blog() {
-  return <h1>Blog</h1>;
+  return (
+    <div className="w-full">
+      <h1 className="text-4xl pb-4">Blog</h1>
+      <p>Nothing to see here. Yet...</p>
+    </div>
+  );
 }
