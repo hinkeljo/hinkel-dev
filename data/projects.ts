@@ -19,47 +19,26 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "lingoflash",
-    name: "LingoFlash",
-    description: "An AI powered flashcard app for learning languages",
+    id: "resumaker",
+    name: "Typst Resume Maker",
+    description: "A graphical interface for creating a resume with Typst.",
     images: [
       {
-        src: "/images/lingoflash_1.png",
-        alt: "A screenshot of the LingoFlash homepage",
-        subtitle: "The homepage of the LingoFlash app.",
-      },
-      {
-        src: "/images/lingoflash_2.png",
-        alt: "A screenshot of the LingoFlash dashboard",
-        subtitle:
-          "The dashboard provides an overview of due cards and offers the possibility to generate new flashcards with the help of generative AI.",
-      },
-      {
-        src: "/images/lingoflash_3.png",
-        alt: "A screenshot of the LingoFlash learning page",
-        subtitle:
-          "Users can learn their generated flashcards with the SM-2 spaced repetition algorithm.",
+        src: "/images/resumaker_1.png",
+        alt: "A screenshot of the Resumaker homepage",
       },
     ],
     tags: [
       {
-        name: "AI",
-        icon: "ri:gemini-fill",
-      },
-      {
-        name: "Svelte",
+        name: "Svelte 5",
         icon: "ri:svelte-line",
-      },
-      {
-        name: "Pocketbase",
-        icon: "simple-icons:pocketbase",
       },
       {
         name: "Typescript",
         icon: "mdi:language-typescript",
       },
       {
-        name: "HDM",
+        name: "Typst",
       },
     ],
     links: {
@@ -127,6 +106,54 @@ export const projects: Project[] = [
       },
     ],
     links: {},
+  },
+  {
+    id: "lingoflash",
+    name: "LingoFlash",
+    description: "An AI powered flashcard app for learning languages",
+    images: [
+      {
+        src: "/images/lingoflash_1.png",
+        alt: "A screenshot of the LingoFlash homepage",
+        subtitle: "The homepage of the LingoFlash app.",
+      },
+      {
+        src: "/images/lingoflash_2.png",
+        alt: "A screenshot of the LingoFlash dashboard",
+        subtitle:
+          "The dashboard provides an overview of due cards and offers the possibility to generate new flashcards with the help of generative AI.",
+      },
+      {
+        src: "/images/lingoflash_3.png",
+        alt: "A screenshot of the LingoFlash learning page",
+        subtitle:
+          "Users can learn their generated flashcards with the SM-2 spaced repetition algorithm.",
+      },
+    ],
+    tags: [
+      {
+        name: "AI",
+        icon: "ri:gemini-fill",
+      },
+      {
+        name: "Svelte",
+        icon: "ri:svelte-line",
+      },
+      {
+        name: "Pocketbase",
+        icon: "simple-icons:pocketbase",
+      },
+      {
+        name: "Typescript",
+        icon: "mdi:language-typescript",
+      },
+      {
+        name: "HDM",
+      },
+    ],
+    links: {
+      live: "https://lingoflash.app/",
+    },
   },
   {
     id: "fehtimeline",
