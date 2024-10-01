@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <h1 className="text-4xl pb-4">About me</h1>
-      <p>Coming soon...</p>
+      <p>Nothing to see here. Yet...</p>
     </div>
   );
 }
